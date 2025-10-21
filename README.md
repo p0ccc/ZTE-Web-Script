@@ -12,7 +12,13 @@ This script is a total rewrite.
 
 ## Legacy
 
-**Compatible Routers:** ZTE MC7010, MC888, MC889, and many more.
+Compatible Routers: ZTE MC7010, MC888, MC889, and many others.
+
+**WARNING:**
+
+If you are using one of these routers, turn off automatic firmware updates.  
+Future updates (such as B19 for the MC889) will make this script unusable.  
+Band locking will no longer be possible, as ZTE has broken the locking API in the firmware.
 
 ![ZTE-Script-Legacy](img/legacy.png)
 
