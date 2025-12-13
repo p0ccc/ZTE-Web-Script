@@ -5,9 +5,11 @@
 // @match        https://192.168.0.1/*
 // @match        https://192.168.1.1/*
 // @match        https://192.168.2.1/*
+// @match        https://192.168.3.1/*
 // @match        http://192.168.0.1/*
 // @match        http://192.168.1.1/*
 // @match        http://192.168.2.1/*
+// @match        http://192.168.3.1/*
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
@@ -53,7 +55,7 @@
         }
     }
 
-    loadScript("https://cdn.jsdelivr.net/gh/tpoechtrager/ZTE-Web-Script/legacy/zte-script-legacy.js", function() {
+    loadScript("https://cdn.jsdelivr.net/gh/tpoechtrager/ZTE-Web-Script/ng/zte-script-ng.js", function() {
         console.log("ZTE-Web-Script loaded and executed.");
     }, function() {
         alert("Failed to load the ZTE-Web-Script");
